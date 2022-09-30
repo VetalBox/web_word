@@ -1,0 +1,421 @@
+
+@font-face {
+    font-family: 'Gilroy-Light';
+    src: url('../fonts/Gilroy-Light.otf'); 
+  } 
+@font-face {
+    font-family: 'Gilroy';
+    src: url('../fonts/Gilroy.otf'); 
+  }
+
+.header-flex-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.line_vert1{
+    margin-left: 79px;
+}
+.line_vert2{
+    margin-top: -18px;
+    padding-left: 50px;
+}
+.header-flex-block-logo{
+    display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+.header-flex-block-logo p{
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 150%;
+    color: #14161B;
+    margin-left: 41px;
+}
+.tech{
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 120%;
+    letter-spacing: 0.5px;
+    color: #14161B;
+    padding-left: 35px;  
+}
+.main_menu{
+    margin-right: 15px;
+}
+.header-flex-container-menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: flex-center;
+}
+.header-flex-container-menu li a{
+    margin-right: 25px;
+    text-decoration: none;
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 150%;
+    color: #000000;
+}
+.contact_us{
+    margin-right: 25px;
+}
+.contact_us button{
+    border-style: solid;
+    border-radius: 25px;
+    background-color: #fff;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-right: 70px;
+    padding-left: 70px;
+}
+.contact_us a{
+    text-decoration: none;
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #14161B;
+}
+.line_rectangle{
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+}
+.line_rectangle_all{
+    padding-right: 35px;
+}
+.line_rectangle_one{
+    margin-bottom: -5px;
+}
+#block-first{
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+    height: 600px;
+	background-image: url(../images/one_back.png);
+    background-position: center;
+    background-position: relative;
+	/*background-size: contain;*/
+    /*background-size: 100% auto;*/
+	background-repeat:no-repeat;
+}
+#block-first h1{
+    padding-top: 100px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight:700;
+    font-size: 200px;
+    line-height: 74.5%;
+    color: #ffffff;
+}
+#block-first h1 span{
+    margin-left: -35px;
+}
+.context{
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-end;
+	align-items: center;
+    margin-right: 70px;
+}
+.view_frame{
+    margin-top: -70px;
+    width: 600px;
+    height: auto;
+    background-color: #14161B;
+    padding-bottom: 70px;
+}
+.view_frame:hover{
+    border: 1px solid #0D99FF;
+}
+.rectangle_12{
+    position: absolute;
+    margin-left:27%;
+    margin-right: 73%;
+    padding-top: 40px;
+}
+.ellipse11{
+    margin-left: 120px;
+}
+.view_frame_block{
+    padding-top: 70px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    height: auto;
+}
+.view_frame p{
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #FFFFFF;
+}
+.quote{
+    border: #DA1648;
+    border-radius: 35px;
+    background-color: #DA1648;
+    padding-top: 15px;
+    padding-bottom: 15px ;
+    padding-right: 70px;
+    padding-left: 70px; 
+}
+.quote:hover{
+    border: 1px solid #0D99FF;
+}
+.quote a{
+    text-decoration: none;
+    font-family: 'Gilroy-Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #ffffff;
+}
+.line_gor1{
+    color: #E9E9E9;
+    size: 1px;
+    margin-right: 50px;
+}
+.line_gor2{
+    color: #E9E9E9;
+    size: 1px;
+    margin-right: 150px;
+}
+.line_gor3{
+    color: #E9E9E9;
+    size: 1px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 85%;
+}
+/*run string*/
+.string{
+    text-align:left;
+    width:100%;
+    overflow:hidden;
+    white-space: nowrap;
+}
+.string span{
+    display:inline-block;
+    width:100%;
+    text-indent:0;
+    animation: marquee 10s linear infinite
+}
+.string span:hover{
+    animation-play-state: paused
+}
+@keyframes marquee {
+0%  { transform: translate(100%, 0); }
+100% { transform: translate(-100%, 0); }
+}
+@media only screen and (max-width: 440px) {
+.string span{animation:none;padding-left:0}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1550px){
+	#block-first h1{
+        padding-top: 100px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight:700;
+        font-size: 180px;
+        line-height: 74.5%;
+        color: #FFFFFF;
+    }
+   
+}
+@media screen and (max-width: 1400px){
+	#block-first h1{
+        padding-top: 120px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight:700;
+        font-size: 160px;
+        line-height: 74.5%;
+        color: #FFFFFF;
+    }
+    .header-flex-container-menu{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-center;
+    }
+}
+@media screen and (max-width: 1280px){
+	#block-first h1{
+        padding-top: 130px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight:700;
+        font-size: 140px;
+        line-height: 74.5%;
+        color: #FFFFFF;
+    }
+    #block-first h1 span{
+        margin-left: -25px;
+    }
+}
+@media screen and (max-width: 1100px){
+	#block-first h1{
+        padding-top: 150px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight:700;
+        font-size: 110px;
+        line-height: 74.5%;
+        color: #FFFFFF;
+    }
+    .tech{
+        display: none;  
+    }
+}
+@media screen and (max-width: 860px){
+	#block-first h1{
+        padding-top: 160px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight:700;
+        font-size: 90px;
+        line-height: 74.5%;
+        color: #FFFFFF;
+    }
+    #block-first h1 span{
+        margin-left: -15px;
+    }
+    #block-first{
+        height: 500px; 
+    }
+    .line_rectangle_all{
+        display: none;
+    }
+    .line_15{
+        display: none;
+    }
+    .rectangle_12{
+        position: absolute;
+        margin-left:10%;
+        margin-right: 90%;
+        padding-top: 40px;
+    }
+    .ellipse11{
+        margin-left: 120px;
+    }
+}
+@media screen and (max-width: 700px){
+	#block-first h1{
+        padding-top: 170px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight:700;
+        font-size: 70px;
+        line-height: 74.5%;
+        color: #FFFFFF;
+    }
+    #block-first h1 span{
+        margin-left: -5px;
+    }
+    #block-first{
+        height: 450px; 
+    }
+    .line_vert1{
+        display: none;
+    }
+    .line_vert2{
+        display: none;
+    }
+    .contact_us button{
+        border-style: solid;
+        border-radius: 25px;
+        background-color: #fff;
+        padding-top: 5px;
+        padding-bottom: 5px ;
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 570px){
+	#block-first h1{
+        padding-top: 180px;
+        font-family: 'Gilroy';
+        font-style: normal;
+        font-weight:700;
+        font-size: 50px;
+        line-height: 74.5%;
+        color: #FFFFFF;
+    }
+    #block-first{
+        height: 400px;
+    }
+    .header-flex-block-logo p{
+        font-family: 'Gilroy-Light';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 25px;
+        line-height: 150%;
+        color: #14161B;
+        margin-left: 10px;
+    }
+    .quote{
+        border: #DA1648;
+        border-radius: 35px;
+        background-color: #DA1648;
+        padding-top: 15px;
+        padding-bottom: 15px ;
+        padding-right: 20px;
+        padding-left: 20px; 
+    }
+    .rectangle_12{
+        position: absolute;
+        margin-left:1%;
+        margin-right: 99%;
+        padding-top: 40px;
+    }
+
+}
